@@ -96,7 +96,7 @@
     </Compile>
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="Model\Alternative.cs" />
-    <Compile Include="Model\criteria.cs" />
+    <Compile Include="Model\Criteria.cs" />
     <Compile Include="Model\Focus.cs" />
     <Compile Include="Views\FileData.xaml.cs">
       <DependentUpon>FileData.xaml</DependentUpon>
@@ -140,6 +140,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

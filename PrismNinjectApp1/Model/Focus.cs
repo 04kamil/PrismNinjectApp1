@@ -8,5 +8,6 @@ namespace PrismNinjectApp1.Model
 {
     class Focus
     {
+        public string Cel { get; set; }
     }
 }

@@ -6,9 +6,10 @@
       xmlns:local="clr-namespace:PrismNinjectApp1.ViewModels"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="FileData">
+      Title="FileData"
+      Background="White">
 
     <Grid>
-        
+        <
     </Grid>
 </Page>

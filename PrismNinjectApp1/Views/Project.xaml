@@ -10,8 +10,14 @@
 
     <Grid Background="WhiteSmoke">
         <StackPanel VerticalAlignment="Center">
-            <TextBlock Text="Cel" Width="100" TextAlignment="Center"></TextBlock>
-            <TextBox x:Name="textbox"></TextBox>
+            <TextBlock Text="Focus" Width="100" TextAlignment="Center"></TextBlock>
+            <TextBox x:Name="FocusTextBox" Width="100" ></TextBox>
+            
+            <TextBlock Text="Cryterias" Width="100" TextAlignment="Center"></TextBlock>
+            <TextBox x:Name="CryteriasTextBox" Width="100"></TextBox>
+            
+            <TextBlock Text="Alternative" Width="100" TextAlignment="Center"></TextBlock>
+            <TextBox x:Name="AlternativeTextBox" Width="100"></TextBox>
         </StackPanel>
         
     </Grid>

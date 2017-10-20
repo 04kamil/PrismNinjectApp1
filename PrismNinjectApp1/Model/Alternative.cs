@@ -8,5 +8,10 @@ namespace PrismNinjectApp1.Model
 {
     class Alternative
     {
+        public string Name { get; set; }
+        public List<Criteria> SelectedCriterias { get; set; }
+
+
+
     }
 }
