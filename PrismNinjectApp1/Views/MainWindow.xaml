@@ -3,8 +3,21 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:prism="http://prismlibrary.com/"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="{Binding Title}" Height="350" Width="525">
+        Title="{Binding Title}" Height="350" Width="525"
+        Background="WhiteSmoke"
+        
+        >
+    
     <Grid>
         <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        <DockPanel LastChildFill="True">
+
+            <Grid DockPanel.Dock="Bottom" Background="Orange" Height="50">
+                <ProgressBar x:Name="ProgBar" Margin="40,15" Value="50"></ProgressBar>
+            </Grid>
+            <Grid >
+                <Frame x:Name="TopFrame"></Frame>
+            </Grid>
+        </DockPanel>
     </Grid>
 </Window>
